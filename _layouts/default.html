@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body {% if page.home %} class="landing-bg" {% endif %} >
+    <!-- darkmode saved -->
+    <script>
+        function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+        }
+
+        if (getCookie('darkmode') === '1') {
+            var body = document.getElementsByTagName('body')[0];
+            body.className += ' darkmode';
+        }
+    </script>
+    <div class="page-wrap">
+
+    {% include header.html %}
+
+
+      {{ content }}
+    </div>
+
+
+
+    {% include footer.html %}
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="/js/cssbrowserselector.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  <!-- rotate dark mode -->
+  <script>
+  $(".rotate").click(function(){
+    $(this).toggleClass("down");
+  });
+  </script>
+
+  <!-- dark mode toggle -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script>
+      $("#dm-toggle").click(function() {
+          $("body").toggleClass("darkmode");
+          $("body").addClass('fader');
+          var isDarkMode = Cookies.get('darkmode');
+          if (isDarkMode === '1') {
+              Cookies.set('darkmode', '0', { expires: 1 });
+          } else {
+              Cookies.set('darkmode', '1', { expires: 1 });
+          }
+      });
+  </script>
+  <!-- <script src="/js/classie.js"></script> -->
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-652647-14', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script>
+  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+  </script>
+</body>
+</html>

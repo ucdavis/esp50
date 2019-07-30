@@ -1,0 +1,20 @@
+# Site settings
+title: ESP 50th Anniversary Site
+email: cydoval@ucdavis.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Celebrating the Department of Environmental Science and Policy 50 years at UC Davis
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://computing.caes.ucdavis.edu" # the base hostname & protocol for your site
+
+permalink: pretty
+
+paginate: 3
+
+# Build settings
+markdown: kramdown
+
+#gems
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-autoprefixer
