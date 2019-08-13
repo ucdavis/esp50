@@ -22,9 +22,9 @@ $sans-italic:   "proxima-nova-i",sans-serif;
 $sans-bold:     "proxima-nova-b",sans-serif;
 $sans-reg:      "proxima-nova-r",sans-serif;
 
-$primary-color:     #1D3B5C;
+$primary-color:     #002855;
 $secondary-color:   #004987;
-$tertiary-color:    #F4BD00;
+$tertiary-color:    #DAAA00;
 
 
 
@@ -73,9 +73,6 @@ $cork-oak: #aca39a;
 $shingle-brown: #4f2c1d;
 
 // Layouts
-
-$card-padding: 0.75rem 1.75rem;
-$card-thick-padding: 3rem;
 
 @mixin breakpoint($point) {
     @if $point==sm {

@@ -7,13 +7,6 @@
   <meta property="og:image" content="/media/thumbnail.jpg">
   <link rel="shortcut icon" href="/media/favicon.ico">
 
-  <style>
-    body {
-      min-height: 100%;
-
-    }
-  </style>
-
   <title>{{ site.title }} - {{ page.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 

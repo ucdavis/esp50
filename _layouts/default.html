@@ -1,30 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body {% if page.home %} class="landing-bg" {% endif %} >
-    <!-- darkmode saved -->
-    <script>
-        function getCookie(cname) {
-        var name = cname + "=";
-        var decodedCookie = decodeURIComponent(document.cookie);
-        var ca = decodedCookie.split(';');
-        for(var i = 0; i <ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-        }
-
-        if (getCookie('darkmode') === '1') {
-            var body = document.getElementsByTagName('body')[0];
-            body.className += ' darkmode';
-        }
-    </script>
+  <body>
     <div class="page-wrap">
 
     {% include header.html %}
@@ -45,29 +22,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-  <!-- rotate dark mode -->
-  <script>
-  $(".rotate").click(function(){
-    $(this).toggleClass("down");
-  });
-  </script>
-
-  <!-- dark mode toggle -->
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-  <script>
-      $("#dm-toggle").click(function() {
-          $("body").toggleClass("darkmode");
-          $("body").addClass('fader');
-          var isDarkMode = Cookies.get('darkmode');
-          if (isDarkMode === '1') {
-              Cookies.set('darkmode', '0', { expires: 1 });
-          } else {
-              Cookies.set('darkmode', '1', { expires: 1 });
-          }
-      });
-  </script>
-  <!-- <script src="/js/classie.js"></script> -->
-
   <!-- Google Analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -78,14 +32,6 @@
     ga('create', 'UA-652647-14', 'auto');
     ga('send', 'pageview');
 
-  </script>
-  <!-- Lightbox -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-  <script>
-  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox();
-});
   </script>
 </body>
 </html>
