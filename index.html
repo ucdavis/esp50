@@ -16,9 +16,9 @@ title: 50th Anniversary ESP
     </div>
   </div>
 </div>
-<div class="timeline-wrapper container">
+<div class="timeline-wrapper timemark container">
 {% for post in site.posts reversed %}
-<div class="row no-gutters timemark">
+<div class="row no-gutters">
     <div class="col-2 text-right"><p class="date">{{ post.date | date: "%b %Y"}}</p>    </div>
     <div class="col-2 text-left"><img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline"></div>
   <div class="col-md-7 timecard color-{{ post.categories }}">

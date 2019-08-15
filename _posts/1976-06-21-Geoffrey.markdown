@@ -1,6 +1,6 @@
 ---
 title:  "Geoffrey Wandesforde-Smith presented CEQA/NEPA/Environmental Impact Assessment to EU"
-date:   1976-02-21
+date:   1976-06-21
 portrait: geoffrey-wandesforde-smith
 categories:
   - faculty
