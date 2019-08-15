@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="26px" viewBox="0 0 36 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>courses</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="take9-copy-3" transform="translate(-287.000000, -1631.000000)" fill="#78BE20">
+            <g id="timeline-entries" transform="translate(135.000000, 1148.000000)">
+                <g id="timeline-entry3" transform="translate(1.000000, 476.000000)">
+                    <g id="courses-marker" transform="translate(153.000000, 9.000000)">
+                        <g id="blue-marker-right">
+                            <polygon id="Triangle" transform="translate(24.536133, 10.965820) rotate(-270.000000) translate(-24.536133, -10.965820) " points="24.5361328 1.46582031 33.0361328 20.4658203 16.0361328 20.4658203"></polygon>
+                            <circle id="Oval" stroke="#FFFFFF" stroke-width="4" cx="11" cy="11" r="11"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

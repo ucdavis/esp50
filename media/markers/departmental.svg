@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="36px" height="26px" viewBox="0 0 36 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
-    <title>department-marker2</title>
+    <title>department-marker</title>
     <desc>Created with Sketch.</desc>
     <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="take9-copy-2" transform="translate(-287.000000, -1160.000000)" fill="#FFCD00">
+        <g id="take9-copy-3" transform="translate(-287.000000, -1160.000000)" fill="#FFCD00">
             <g id="timeline-entries" transform="translate(135.000000, 1148.000000)">
                 <g id="timeline-entry1">
                     <g id="department-marker2" transform="translate(154.000000, 14.000000)">
-                        <g id="department-marker">
-                            <g id="marker">
+                        <g id="department">
+                            <g>
                                 <polygon id="Triangle" transform="translate(24.536133, 10.965820) rotate(-270.000000) translate(-24.536133, -10.965820) " points="24.5361328 1.46582031 33.0361328 20.4658203 16.0361328 20.4658203"></polygon>
-                                <circle id="Oval" stroke="#FCFCF9" stroke-width="4" cx="11" cy="11" r="11"></circle>
+                                <circle id="Oval" stroke="#FFFFFF" stroke-width="4" cx="11" cy="11" r="11"></circle>
                             </g>
                         </g>
                     </g>
