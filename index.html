@@ -20,9 +20,13 @@ title: 50th Anniversary ESP
 {% for post in site.posts reversed %}
 <div class="row no-gutters">
     <div class="col-2 text-right"><p class="date">{{ post.date | date: "%b %Y"}}</p>    </div>
-    <div class="col-2 text-left"><img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline"></div>
+    <div class="col-2 text-left"><img class="linemarker" src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline"></div>
   <div class="col-md-6 timecard color-{{ post.categories }}">
-    <h3>{{ post.title }}</h3>
+    <h3 class="d-flex">{{ post.title }}
+      {% if post.portrait %}
+      <img src="/media/faculty/{{ post.portrait }}.png" alt="{{ post.portrait }}" class="portrait">
+      {% endif %}
+    </h3>
     <p>{{ post.content }}</p>
   </div>
 </div>

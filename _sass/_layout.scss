@@ -128,10 +128,16 @@ h1 {
   @include breakpoint(xl) {
     background-position: 19.8%;
   }
-  img {
+}
+.linemarker {
     margin-top:1.4rem;
     margin-left:3rem;
-  }
+}
+.portrait {
+  border:2px solid #fff;
+  border-radius:50%;
+  box-shadow: $box-shadow;
+  margin-left:1.6rem;
 }
 footer {
   flex-shrink: 0;
