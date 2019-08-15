@@ -84,6 +84,45 @@ h1 {
 }
 .intro {
   margin-top:5%;
+  @include breakpoint(lg) {
+    .intro-content {
+      max-width:630px;
+    }
+  }
+}
+.timecard {
+  background-color: #ffffff;
+  box-shadow: $box-shadow;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom:16px;
+  border:none;
+  padding: 1.6rem !important;
+  &.color-departmental {
+    border-left:16px solid $departmental;
+  }
+  &.color-faculty {
+    border-left:16px solid $faculty;
+  }
+  &.color-affiliated {
+    border-left:16px solid $affiliated;
+  }
+  &.color-enrollment {
+    border-left:16px solid $enrollment;
+  }
+  &.color-awards {
+    border-left:16px solid $awards;
+  }
+  &.color-courses {
+    border-left:16px solid $courses;
+  }
+
+}
+.timemark {
+  background-image: url('/media/repeatline.svg');
+  background-repeat: repeat-y;
+  background-position: center;
+  text-align: center;
 }
 footer {
   flex-shrink: 0;

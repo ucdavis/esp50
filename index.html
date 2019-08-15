@@ -5,14 +5,39 @@ title: 50th Anniversary ESP
 
 <div class="intro container">
   <div class="row">
-    <div class="col-3 offset-1 text-center">
+    <div class="col-md-4 col-xl-3 offset-xl-1 text-center">
         {% include tree.html %}
     </div>
-    <div class="col-md-5 align-self-center">
+    <div class="intro-content col-md-7 align-self-center">
       <h2><img src="/media/50small.svg" alt="The number 50">Years of Environmental Science and Policy</h2>
       <p class="lead">
         In the late 1960s, the citizens of California were becoming increasingly concerned about their State’s resources. In response to this concern, the University of California, Davis, submitted a proposal to the Rockefeller Foundation to create the Division of Environmental Studies. This funding led to the formation of the Division of Environmental Studies in 1970.
       </p>
     </div>
   </div>
+</div>
+<div class="timeline-wrapper container">
+{% for post in site.posts reversed %}
+<div class="row no-gutters">
+  <div class="col-1 timedate">
+    <p class="date text-right"><b>{{ post.date | date: "%b %Y"}}</b>
+    </p>
+  </div>
+  <div class="col-1 timemark">
+    <img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline">
+  </div>
+  <div class="col-md-7 timecard color-{{ post.categories }}">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+  </div>
+</div>
+{% endfor %}
+<!-- <h4>Filters</h4>
+<ul>
+  <li>a</li>
+  <li>a</li>
+  <li>a</li>
+  <li>a</li>
+  <li>a</li>
+</ul> -->
 </div>

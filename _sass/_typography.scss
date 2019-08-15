@@ -105,7 +105,10 @@ p, span, div {
     font-family: $sans-bold;
     margin-bottom:0px;
   }
-
+  &.date {
+    font-family: $sans-bold;
+    margin-top:1.6rem;
+  }
 }
 h1,
 h2,
@@ -125,14 +128,22 @@ h1 {
 }
 h2 {
   font-size: 2.6rem;
+  color:$tertiary-color;
+  img {
+    margin-right:8px;
+    margin-top:-10px;
+  }
 }
 h3 {
   font-size:2.0rem;
-  color:$secondary-font;
+  color:$primary-font;
 }
 h4 {
   font-size:1.4;
   // font-family: $sans-reg;
   text-transform: uppercase;
 
+}
+.sans-bold {
+  font-family: $sans-bold;
 }
