@@ -35,14 +35,14 @@ flex: 1 0 auto;
 
 }
 header {
-  background:url("/media/bigfish.jpg");
+  background:url("/media/fish-food.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: -10%;
+  background-position-y: bottom;
   padding:2.4rem 0;
   .left-head {
     background-color:transparentize($primary-color,0.24);
-    height:700px;
+    height:80rem;
     padding:2.4rem;
     h1 {
       color:$tertiary-color;
@@ -68,12 +68,23 @@ h1 {
     background: -webkit-linear-gradient(left,#1e3a5b 0%,#1e3a5b 44%,#dbbc5b 57%,#dbbc5b 100%);
     background: linear-gradient(to right,#1e3a5b 0%,#1e3a5b 44%,#dbbc5b 57%,#dbbc5b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$gradient-one',endColorstr='$gradient-two',GradientType=1);
+    margin-top:-1px;
 }
 .head_divider {
     background: url(/media/gunrock_banner_final.svg) center top/cover no-repeat;
-    height:10px;
+    height:26px;
+    // i {
+    //   color:#fff;
+    //   background-color: $golden-lupine;
+    //   height:50px;
+    //   width:50px;
+    //   font-size:2.8rem;
+    //   border-radius:50%;
+    // }
 }
-
+.intro {
+  margin-top:5%;
+}
 footer {
   flex-shrink: 0;
   margin-bottom:2rem;
