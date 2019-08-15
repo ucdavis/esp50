@@ -98,6 +98,7 @@ h1 {
   margin-bottom:16px;
   border:none;
   padding: 1.6rem !important;
+  margin-left:-16px;
   &.color-departmental {
     border-left:16px solid $departmental;
   }
@@ -119,10 +120,18 @@ h1 {
 
 }
 .timemark {
-  background-image: url('/media/repeatline.svg');
-  background-repeat: repeat-y;
-  background-position: center;
-  text-align: center;
+  @include breakpoint(md) {
+    background-image: url('/media/repeatline.svg');
+    background-repeat: repeat-y;
+    background-position: 14.8%;
+  }
+  @include breakpoint(xl) {
+    background-position: 19.8%;
+  }
+  img {
+    margin-top:1.4rem;
+    margin-left:3rem;
+  }
 }
 footer {
   flex-shrink: 0;
