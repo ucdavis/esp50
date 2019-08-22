@@ -137,6 +137,9 @@ h1 {
   @include breakpoint(xl) {
     background-position: 19.8%;
   }
+  .row {
+    padding:16px 0;
+  }
 }
 .linemarker {
     margin-top:1.4rem;
