@@ -1,0 +1,6 @@
+---
+title:  "A New undergraduate major was created, Environmental Biology and Management (EBM), which gradually replaced ENP."
+date:   1990-06-21
+categories:
+  - courses
+---

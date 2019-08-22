@@ -35,7 +35,7 @@ flex: 1 0 auto;
 
 }
 header {
-  background:url("/media/fish-food.jpg");
+  background:url("/media/fish-slide.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -62,6 +62,15 @@ h1 {
     fill:$tertiary-font;
   }
 }
+// header.slider {
+//   .slide_overlay {
+//     position: absolute;
+//     background-color:transparentize($primary-color,0.24);
+//     z-index:99;
+//     height:80rem;
+//     padding:2.4rem;
+//   }
+// }
 .head_bleed {
   background: #1e3a5b;
     background: -moz-linear-gradient(left,#1e3a5b 0%,#1e3a5b 44%,#dbbc5b 57%,#dbbc5b 100%);
@@ -138,6 +147,10 @@ h1 {
   border-radius:50%;
   box-shadow: $box-shadow;
   margin-left:1.6rem;
+
+    width:60px;
+    height:60px;
+
 }
 footer {
   flex-shrink: 0;
