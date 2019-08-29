@@ -1,5 +1,5 @@
 ---
-title:  "Start of the Information Center  for the Envrionment (ICE)."
+title:  "Start of the Information Center  for the Environment (ICE)."
 date:   1992-06-21
 categories:
   - affiliated
