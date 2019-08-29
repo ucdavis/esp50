@@ -129,30 +129,50 @@ ul.filterlist {
         &:hover {
           background-color:transparentize($departmental, 0.95);
         }
+        &.active {
+          color:#fff;
+          background-color:$departmental;
+      }
       }
       &.filter-enrollment {
         border-color:$enrollment;
         &:hover {
           background-color:transparentize($enrollment, 0.95);
         }
+        &.active {
+          color:#fff;
+          background-color:$enrollment;
+      }
       }
       &.filter-faculty {
         border-color:$faculty;
         &:hover {
           background-color:transparentize($faculty, 0.95);
         }
+        &.active {
+          color:#fff;
+          background-color:$faculty;
+      }
       }
       &.filter-awards {
         border-color:$awards;
         &:hover {
-          background-color:transparentize($awards, 0.85);
+          background-color:transparentize($awards, 0.95);
         }
+        &.active {
+          color:#fff;
+          background-color:$awards;
+      }
       }
       &.filter-courses {
         border-color:$courses;
         &:hover {
-          background-color:transparentize($courses, 0.85);
+          background-color:transparentize($courses, 0.95);
         }
+        &.active {
+          color:#fff;
+          background-color:$courses;
+      }
       }
     }
   }
