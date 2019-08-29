@@ -99,6 +99,41 @@ h1 {
     }
   }
 }
+.filters {
+
+}
+ul.filterlist {
+  margin-left:0;
+  padding-left:0;
+  li {
+    display:inline;
+    a {
+      background-color: #fff;
+      border-bottom:3px solid #fff;
+      padding:12px 24px 9px 24px;
+      box-shadow: $box-shadow;
+      color:$primary-font;
+      font-size:1.8rem;
+      font-family: $sans-bold;
+      border-radius:2px;
+      &.filter-department {
+        border-color:$departmental;
+      }
+      &.filter-enrollment {
+        border-color:$enrollment;
+      }
+      &.filter-faculty {
+        border-color:$faculty;
+      }
+      &.filter-awards {
+        border-color:$awards;
+      }
+      &.filter-courses {
+        border-color:$courses;
+      }
+    }
+  }
+}
 .timecard {
   background-color: #ffffff;
   box-shadow: $box-shadow;
@@ -107,7 +142,9 @@ h1 {
   margin-bottom:16px;
   border:none;
   padding: 1.6rem !important;
-  margin-left:-16px;
+  @include breakpoint(md) {
+    margin-left:-16px;
+  }
   &.color-departmental {
     border-left:16px solid $departmental;
   }
@@ -142,8 +179,22 @@ h1 {
   }
 }
 .linemarker {
-    margin-top:1.4rem;
-    margin-left:3rem;
+    align-items:flex-start;
+    padding-top:1.6rem;
+    img {
+      display:none;
+    }
+    @include breakpoint(md) {
+      justify-content: center!important;
+      p {
+        margin:0 5% 0 0;
+      }
+      img {
+        margin-right:20%;
+        display:block;
+      }
+    }
+
 }
 .portrait {
   border:2px solid #fff;
