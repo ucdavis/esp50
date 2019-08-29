@@ -116,20 +116,36 @@ ul.filterlist {
       font-size:1.8rem;
       font-family: $sans-bold;
       border-radius:2px;
+      transition: ease 0.25s;
       &.filter-department {
         border-color:$departmental;
+        &:hover {
+          background-color:transparentize($departmental, 0.85);
+        }
       }
       &.filter-enrollment {
         border-color:$enrollment;
+        &:hover {
+          background-color:transparentize($enrollment, 0.85);
+        }
       }
       &.filter-faculty {
         border-color:$faculty;
+        &:hover {
+          background-color:transparentize($faculty, 0.85);
+        }
       }
       &.filter-awards {
         border-color:$awards;
+        &:hover {
+          background-color:transparentize($awards, 0.75);
+        }
       }
       &.filter-courses {
         border-color:$courses;
+        &:hover {
+          background-color:transparentize($courses, 0.75);
+        }
       }
     }
   }
