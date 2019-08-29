@@ -187,7 +187,6 @@ ul.filterlist {
   &.color-courses {
     border-left:16px solid $courses;
   }
-
 }
 .timemark {
   padding-bottom:48px;
@@ -219,17 +218,14 @@ ul.filterlist {
         display:block;
       }
     }
-
 }
 .portrait {
   border:2px solid #fff;
   border-radius:50%;
   box-shadow: $box-shadow;
   margin-left:1.6rem;
-
-    width:60px;
-    height:60px;
-
+  width:60px;
+  height:60px;
 }
 .last-row {
   margin-bottom:3.2rem;
