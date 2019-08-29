@@ -100,7 +100,13 @@ h1 {
   }
 }
 .filters {
-
+  h3 {
+    color:$tertiary-font;
+    font-size:1.4rem;
+    text-transform: uppercase;
+    margin-right:8px;
+    margin-top:8px;
+  }
 }
 ul.filterlist {
   margin-left:0;
@@ -156,7 +162,6 @@ ul.filterlist {
   box-shadow: $box-shadow;
   border-radius: 4px;
   overflow: hidden;
-  margin-bottom:16px;
   border:none;
   padding: 1.6rem 1.6rem 1rem 1.6rem !important;
   h3 {
@@ -168,6 +173,7 @@ ul.filterlist {
   }
   @include breakpoint(md) {
     margin-left:-16px;
+    margin-bottom:16px;
   }
   &.color-departmental {
     border-left:16px solid $departmental;
