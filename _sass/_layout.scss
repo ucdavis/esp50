@@ -110,41 +110,42 @@ ul.filterlist {
     a {
       background-color: #fff;
       border-bottom:3px solid #fff;
-      padding:12px 24px 9px 24px;
+      padding:10px 24px;
       box-shadow: $box-shadow;
-      color:$primary-font;
+      color:$secondary-font;
       font-size:1.8rem;
       font-family: $sans-bold;
       border-radius:2px;
       transition: ease 0.25s;
+      display: inline-block;
       &.filter-department {
         border-color:$departmental;
         &:hover {
-          background-color:transparentize($departmental, 0.85);
+          background-color:transparentize($departmental, 0.95);
         }
       }
       &.filter-enrollment {
         border-color:$enrollment;
         &:hover {
-          background-color:transparentize($enrollment, 0.85);
+          background-color:transparentize($enrollment, 0.95);
         }
       }
       &.filter-faculty {
         border-color:$faculty;
         &:hover {
-          background-color:transparentize($faculty, 0.85);
+          background-color:transparentize($faculty, 0.95);
         }
       }
       &.filter-awards {
         border-color:$awards;
         &:hover {
-          background-color:transparentize($awards, 0.75);
+          background-color:transparentize($awards, 0.85);
         }
       }
       &.filter-courses {
         border-color:$courses;
         &:hover {
-          background-color:transparentize($courses, 0.75);
+          background-color:transparentize($courses, 0.85);
         }
       }
     }
@@ -157,7 +158,14 @@ ul.filterlist {
   overflow: hidden;
   margin-bottom:16px;
   border:none;
-  padding: 1.6rem !important;
+  padding: 1.6rem 1.6rem 1rem 1.6rem !important;
+  h3 {
+    margin:0;
+  }
+  p {
+    margin-bottom:0;
+    margin-top:8px;
+  }
   @include breakpoint(md) {
     margin-left:-16px;
   }
@@ -182,6 +190,7 @@ ul.filterlist {
 
 }
 .timemark {
+  padding-bottom:48px;
   @include breakpoint(md) {
     background-image: url('/media/repeatline.svg');
     background-repeat: repeat-y;
@@ -221,6 +230,13 @@ ul.filterlist {
     width:60px;
     height:60px;
 
+}
+.last-row {
+  margin-bottom:3.2rem;
+  svg {
+    margin-right: 11px;
+    margin-top: -10px;
+  }
 }
 footer {
   flex-shrink: 0;
