@@ -40,6 +40,9 @@ title: 50th Anniversary ESP
       <img src="/media/faculty/{{ post.portrait }}.png" alt="{{ post.portrait }}" class="portrait">
       {% endif %}
     </h3>
+    {% if post.image %}
+    <img class="feat-image" src="/media/{{ post.image }}" alt="{{ post.image-description }}">
+    {% endif %}
     <p>{{ post.content }}</p>
   </div>
 </div>

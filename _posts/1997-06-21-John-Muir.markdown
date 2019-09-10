@@ -1,0 +1,6 @@
+---
+title:  "Founding of the John Muir Institute of the Environment"
+date:   1997-06-21
+categories:
+  - affiliated
+---
