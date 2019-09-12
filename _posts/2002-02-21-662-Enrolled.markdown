@@ -1,0 +1,6 @@
+---
+title:  "662 students enrolled in DESP couses, 74 students enrolled in EBM and 79 in EPAP."
+date:   2002-02-21
+categories:
+  - enrollment
+---

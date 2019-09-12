@@ -1,7 +1,8 @@
 ---
 title:  "Los Angeles Times highlights the work of Ted Grosholz on the impacts of Europe's green crab on native California coastal systems."
 date:   1998-06-21
-image: eu-green-crab.jpg
+image: TedWithCrabs
+image-description: Ted Grosholz with European Green Crabs
 categories:
   - faculty
 ---
