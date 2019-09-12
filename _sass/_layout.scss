@@ -196,7 +196,7 @@ ul.filterlist {
   }
   @include breakpoint(md) {
     margin-left:-16px;
-    margin-bottom:16px;
+    margin-bottom:8px;
   }
   &.color-departmental {
     border-left:16px solid $departmental;
@@ -233,7 +233,18 @@ ul.filterlist {
     background-position: 19.8%;
   }
   .row {
-    padding:16px 0;
+    padding:24px 0;
+  }
+  .year1972, .year1982, .year1992, .year1997, .year1998, .year2001, .year2004 {
+    padding:0px;
+  }
+}
+.yearline:first-child {
+  padding-bottom:500px;
+}
+.timeline-wrapper {
+  .year1997:last-child {
+    padding-top:12px !important;
   }
 }
 .linemarker {

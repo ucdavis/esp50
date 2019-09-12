@@ -29,7 +29,7 @@ title: 50th Anniversary ESP
     </ul>
   </div>
 {% for post in site.posts reversed %}
-<div class="row no-gutters">
+<div class="row no-gutters yearline year{{ post.date | date: "%Y"}}">
     <div class="linemarker col-md-4 col-xl-3 offset-xl-1 d-flex">
       <p class="date">{{ post.date | date: "%Y"}}</p>
       <img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline">
