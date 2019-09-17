@@ -235,18 +235,19 @@ ul.filterlist {
   .row {
     padding:24px 0;
   }
-  .year1972, .year1982, .year1992, .year1997, .year1998, .year2001, .year2004 {
-    padding:0px;
-  }
+
 }
-.yearline:first-child {
-  padding-bottom:500px;
-}
-.timeline-wrapper {
-  .year1997:last-child {
-    padding-top:12px !important;
-  }
-}
+// .year1972, .year1982, .year1992, .year1997, .year1998, .year2001, .year2004 {
+//   padding:0px;
+// }
+// .yearline:first-child {
+//   padding-bottom:500px;
+// }
+// .timeline-wrapper {
+//   .year1997:last-child {
+//     padding-top:12px !important;
+//   }
+// }
 .linemarker {
     align-items:flex-start;
     padding-top:1.6rem;
@@ -283,4 +284,37 @@ ul.filterlist {
 footer {
   flex-shrink: 0;
   margin-bottom:2rem;
+}
+.timecard a {
+  font-family: $sans-bold;
+}
+.entry-awards {
+  .timecard a {
+    color:$awards;
+  }
+}
+.entry-affiliated {
+  .timecard a {
+    color:$affiliated;
+  }
+}
+.entry-courses {
+  .timecard a {
+    color:$courses;
+  }
+}
+.entry-enrollment {
+  .timecard a {
+    color:$enrollment;
+  }
+}
+.entry-faculty {
+  .timecard a {
+    color:$faculty;
+  }
+}
+.entry-departmental {
+  .timecard a {
+    color:$departmental;
+  }
 }
