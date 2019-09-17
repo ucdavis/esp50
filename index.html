@@ -40,9 +40,9 @@ title: 50th Anniversary ESP
       {% if post.image %}
       <img class="feat-image" src="/media/timeline/{{ post.image }}.jpg" alt="{{ post.image-description }}">
       {% endif %}
-      <p>{{ post.content }}</p>
+      {{ post.content }}
       {% if post.link %}
-      <a href="{{ post.link }}">Learn More</a>
+      <a href="{{ post.link }}" Target="_Blank">Learn More <i class="fas fa-external-link-square-alt"></i></a>
       {% endif %}
     </div>
     {% if post.portrait %}

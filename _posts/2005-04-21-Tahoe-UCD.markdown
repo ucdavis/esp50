@@ -6,5 +6,4 @@ link: https://tahoe.ucdavis.edu/
 categories:
   - affiliated
 ---
-
 UC Davis Tahoe Environmental Research Center is dedicated to interdisciplinary research and education to advance the knowledge of aquatic and terrestrial ecosystems and their interactions within natural and developed Earth systems, and to communicate science-informed solutions worldwide.

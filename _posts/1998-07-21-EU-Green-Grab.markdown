@@ -3,6 +3,7 @@ title:  "Los Angeles Times highlights the work of Ted Grosholz on the impacts of
 date:   1998-06-21
 image: TedWithCrabs
 image-description: Ted Grosholz with European Green Crabs
+link: https://www.latimes.com/archives/la-xpm-1998-nov-05-mn-39552-story.html
 categories:
   - faculty
 ---
