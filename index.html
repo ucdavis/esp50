@@ -16,51 +16,9 @@ title: 50th Anniversary ESP
     </div>
   </div>
 </div>
-<div class="timeline-wrapper timemark container">
-  <div class="filters row justify-content-center">
-    <h3 class="text-right">Timeline<br>
-        Filters</h3>
-    <ul class="filterlist">
-      <li><a class="filter-department" href="#">Department</a></li>
-      <li><a class="filter-enrollment" href="#">Enrollment</a></li>
-      <li><a class="filter-faculty" href="#">Faculty</a></li>
-      <li><a class="filter-awards" href="#">Awards</a></li>
-      <li><a class="filter-courses" href="#">Courses</a></li>
-    </ul>
-  </div>
-{% for post in site.posts reversed %}
-<div class="row no-gutters entry-{{ post.categories }} yearline year{{ post.date | date: "%Y"}}">
-    <div class="linemarker col-md-4 col-xl-3 offset-xl-1 d-flex">
-      <p class="date">{{ post.date | date: "%Y"}}</p>
-      <img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline">
-    </div>
-  <div class="col-md-7 col-lg-6 d-flex justify-content-between timecard color-{{ post.categories }}">
-    <div class="card-content">
-      <h3>{{ post.title }}</h3>
-      {% if post.image %}
-      <img class="feat-image" src="/media/timeline/{{ post.image }}.jpg" alt="{{ post.image-description }}">
-      {% endif %}
-      {{ post.content }}
-      {% if post.link %}
-      <a href="{{ post.link }}" Target="_Blank">Learn More <i class="fas fa-external-link-square-alt"></i></a>
-      {% endif %}
-    </div>
-    {% if post.portrait %}
-    <img src="/media/faculty/{{ post.portrait }}.png" alt="{{ post.portrait }}" class="portrait">
-    {% endif %}
 
-  </div>
-</div>
-{% endfor %}
-</div>
-<div class="container last-row">
-<div class="row">
-  <div class="col-md-4 col-xl-3 offset-xl-1 text-center">
-      {% include roots.html %}
-  </div>
-  <div class="col-md-7 col-lg-6">
-    <h3>Help us go another 50 years by giving us all your money</h3>
-
-  </div>
-</div>
+<div class="event-wrapper">
+  <p><a href="/timeline">
+    go to timeline
+  </a></p>
 </div>

@@ -1,0 +1,67 @@
+---
+layout: default
+title: 50th Anniversary ESP timeline
+permalink: /timeline
+---
+
+<div class="intro container">
+  <div class="row">
+    <div class="col-md-4 col-xl-3 offset-xl-1 text-center">
+        {% include tree.html %}
+    </div>
+    <div class="intro-content col-md-8 align-self-center">
+      <h2><img src="/media/50small.svg" alt="The number 50">Years of Environmental Science and Policy</h2>
+      <p class="lead">
+        Join us as we celebrate 50 years of Environmental Science and Policy at UC Davis. Browse the timeline below to learn some of the important things we've done throughout the years. Use the filters to change focus and help us go another 50 years by joining us at our event!
+      </p>
+    </div>
+  </div>
+</div>
+<div class="timeline-wrapper timemark container">
+  <div class="filters row justify-content-center">
+    <h3 class="text-right">Timeline<br>
+        Filters</h3>
+    <ul class="filterlist">
+      <li><a class="filter-department" href="#">Department</a></li>
+      <li><a class="filter-enrollment" href="#">Enrollment</a></li>
+      <li><a class="filter-faculty" href="#">Faculty</a></li>
+      <li><a class="filter-awards" href="#">Awards</a></li>
+      <li><a class="filter-courses" href="#">Courses</a></li>
+    </ul>
+  </div>
+{% for post in site.posts reversed %}
+<div class="row no-gutters entry-{{ post.categories }} yearline year{{ post.date | date: "%Y"}}">
+    <div class="linemarker col-md-4 col-xl-3 offset-xl-1 d-flex">
+      <p class="date">{{ post.date | date: "%Y"}}</p>
+      <img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline">
+    </div>
+  <div class="col-md-7 col-lg-6 d-flex justify-content-between timecard color-{{ post.categories }}">
+    <div class="card-content">
+      <h3>{{ post.title }}</h3>
+      {% if post.image %}
+      <img class="feat-image" src="/media/timeline/{{ post.image }}.jpg" alt="{{ post.image-description }}">
+      {% endif %}
+      {{ post.content }}
+      {% if post.link %}
+      <a href="{{ post.link }}" Target="_Blank">Learn More <i class="fas fa-external-link-square-alt"></i></a>
+      {% endif %}
+    </div>
+    {% if post.portrait %}
+    <img src="/media/faculty/{{ post.portrait }}.png" alt="{{ post.portrait }}" class="portrait">
+    {% endif %}
+
+  </div>
+</div>
+{% endfor %}
+</div>
+<div class="container last-row">
+<div class="row">
+  <div class="col-md-4 col-xl-3 offset-xl-1 text-center">
+      {% include roots.html %}
+  </div>
+  <div class="col-md-7 col-lg-6">
+    <h3>Help us go another 50 years by giving us all your money</h3>
+
+  </div>
+</div>
+</div>
