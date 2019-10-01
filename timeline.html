@@ -4,7 +4,7 @@ title: 50th Anniversary ESP timeline
 permalink: /timeline
 ---
 {% include header.html %}
-<div class="intro container faculty-active">
+<div class="intro container">
   <div class="row">
     <div class="col-md-4 col-xl-3 offset-xl-1 text-center">
         {% include tree.html %}
@@ -22,15 +22,41 @@ permalink: /timeline
     <h3 class="text-right">Timeline<br>
         Filters</h3>
     <ul class="filterlist">
-      <li><a class="filter-department" href="#">Department</a></li>
-      <li><a class="filter-enrollment" href="#">Enrollment</a></li>
-      <li><a class="filter-faculty active" href="#">Faculty</a></li>
-      <li><a class="filter-awards" href="#">Awards</a></li>
-      <li><a class="filter-courses" href="#">Courses</a></li>
+      <li data-category-toggle="departmental"><a class="filter-department">Department</a></li>
+      <li data-category-toggle="enrollment"><a class="filter-enrollment">Enrollment</a></li>
+      <li data-category-toggle="faculty"><a class="filter-faculty">Faculty</a></li>
+      <li data-category-toggle="awards"><a class="filter-awards">Awards</a></li>
+      <li data-category-toggle="courses"><a class="filter-courses">Courses</a></li>
     </ul>
+    <script>
+      let filterCategories = new Set()
+      let filter = document.querySelector('.filterlist')
+
+      function toggleFilter(e) {
+        let category = this.dataset.categoryToggle
+
+        if(filterCategories.has(category)) {
+          filterCategories.delete(category)
+        } else {
+          filterCategories.add(category)
+        }
+
+        e.target.classList.toggle("active")
+
+        let event = new CustomEvent('filter-change', {detail: {
+          categories: [...filterCategories]
+        }})
+        
+        filter.dispatchEvent(event)
+      }
+
+      for(let child of filter.children) {
+        child.onclick = toggleFilter
+      }
+    </script>
   </div>
 {% for post in site.posts reversed %}
-<div class="row no-gutters entry-{{ post.categories }} yearline year{{ post.date | date: "%Y"}}">
+<div class="row no-gutters entry entry-{{ post.categories }} yearline year{{ post.date | date: "%Y"}}" data-category="{{ post.categories }}">
     <div class="linemarker col-md-4 col-xl-3 offset-xl-1 d-flex">
       <p class="date">{{ post.date | date: "%Y"}}</p>
       <img src="/media/markers/{{ post.categories }}.svg" alt="arrow marker on timeline">
@@ -53,6 +79,37 @@ permalink: /timeline
   </div>
 </div>
 {% endfor %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let filter = document.querySelector('.filterlist')
+    let items = document.querySelectorAll('[data-category]')
+    
+    filter.addEventListener('filter-change', function(e) {
+      for(let el of items) {
+        let category = el.dataset.category
+        if(e.detail.categories.includes(category) || e.detail.categories.length == 0) {
+          el.classList.remove("hidden")
+        } else {
+          el.classList.add("hidden")
+        }
+      } 
+    })
+
+    let tree = document.getElementById('tree')
+    filter.addEventListener('filter-change', function(e) {
+      let categories = e.detail.categories
+      tree.classList.forEach(val => {
+        if(!categories.includes(val)) {
+          tree.classList.remove(val)
+        }
+      })
+
+      for(let category of categories) {
+        tree.classList.add(category)
+      }
+    })
+  })
+</script>
 </div>
 <div class="container last-row">
 <div class="row">

@@ -1,0 +1,28 @@
+.treeleaf:nth-child(5n) {
+    #tree.departmental & {
+        fill: $golden-lupine;
+    }
+    #tree.faculty & {
+        fill: $unitrans-red;
+    }
+}
+.treeleaf:nth-child(5n + 1) {
+    #tree.departmental & {
+        fill: $golden-lupine;
+    }
+}
+.treeleaf:nth-child(5n + 2) {
+    #tree.departmental & {
+        fill: $golden-lupine;
+    }
+}
+.treeleaf:nth-child(5n + 3) {
+    #tree.departmental & {
+        fill: $golden-lupine;
+    }
+}
+.treeleaf:nth-child(5n + 4) {
+    #tree.departmental & {
+        fill: $golden-lupine;
+    }
+}
