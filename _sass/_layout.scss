@@ -55,6 +55,12 @@ header {
     }
   }
 }
+header.yurt {
+  background:url("/media/yurt-slide.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
 
 h1 {
   .fas {
@@ -324,8 +330,11 @@ footer {
   max-width:660px;
   margin:0 auto;
   margin-top:40px;
-  margin-bottom:40px;
+  margin-bottom:80px;
 }
 .btn-primary {
   @include main-btn;
+}
+.btn-outline {
+  @include inverse-btn;
 }

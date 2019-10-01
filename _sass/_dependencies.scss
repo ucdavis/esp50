@@ -146,17 +146,17 @@ $shingle-brown: #4f2c1d;
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
-  background: #fff;
+  background: rgba(0,0,0,0.12);
   font-size: 1.6rem;
   letter-spacing: 0.025em;
-  color: $primary-color;
+  color: #fff;
   text-decoration: none;
   transition: all 0.15s ease;
-  border: none;
+  border: 1px solid #fff;;
   font-family: $sans-bold;
-  box-shadow: $box-shadow;
   &:hover {
-    transform: translateY(-1px);
-    text-decoration: none;
+    background-color:rgba(0,0,0,0.5);
+    text-decoration:none;
+    color:#fff;
   }
 }
