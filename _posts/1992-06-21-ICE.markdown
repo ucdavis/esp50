@@ -1,6 +1,7 @@
 ---
 title:  "Creation of the Information Center for the Envrionment (ICE)."
 date:   1992-06-21
+link: http://ice.ucdavis.edu/
 categories:
   - affiliated
 ---
