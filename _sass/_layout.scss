@@ -333,6 +333,19 @@ footer {
     color:$departmental;
   }
 }
+.event-details {
+  background-color:$bg-color;
+  border-radius:4px;
+  padding:32px 16px;
+  border:1px solid $borders;
+}
+.eventinfo-icon {
+  width:50px;
+  text-align: center;
+  i {
+    font-size:2.4rem;
+  }
+}
 .event-wrapper {
   max-width:660px;
   margin:0 auto;
