@@ -119,6 +119,9 @@ ul.filterlist {
   padding-left:0;
   li {
     display:inline;
+    &:hover {
+      cursor: pointer;
+    }
     a {
       background-color: #fff;
       border-bottom:3px solid #fff;
@@ -130,6 +133,7 @@ ul.filterlist {
       border-radius:2px;
       transition: ease 0.25s;
       display: inline-block;
+      user-select: none;
       &.filter-department {
         border-color:$departmental;
         &:hover {
@@ -295,6 +299,9 @@ footer {
   font-family: $sans-bold;
   display: block;
   margin-top:1.6rem;
+}
+.entry.hidden {
+  display: none;
 }
 .entry-awards {
   .timecard a {
