@@ -46,7 +46,7 @@ permalink: /timeline
         let event = new CustomEvent('filter-change', {detail: {
           categories: [...filterCategories]
         }})
-        
+
         filter.dispatchEvent(event)
       }
 
@@ -83,7 +83,7 @@ permalink: /timeline
   document.addEventListener('DOMContentLoaded', function() {
     let filter = document.querySelector('.filterlist')
     let items = document.querySelectorAll('[data-category]')
-    
+
     filter.addEventListener('filter-change', function(e) {
       for(let el of items) {
         let category = el.dataset.category
@@ -92,7 +92,7 @@ permalink: /timeline
         } else {
           el.classList.add("hidden")
         }
-      } 
+      }
     })
 
     let tree = document.getElementById('tree')
@@ -117,7 +117,7 @@ permalink: /timeline
       {% include roots.html %}
   </div>
   <div class="col-md-7 col-lg-6">
-    <h3>Help us go another 50 years by giving us all your money</h3>
+    <h3>Donate button placeholder</h3>
 
   </div>
 </div>
