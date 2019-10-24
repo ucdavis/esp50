@@ -238,12 +238,15 @@ ul.filterlist {
     background-image: url('/media/repeatline.svg');
     background-repeat: repeat-y;
     background-position: 14.8%;
+    .row {
+      padding:24px 0;
+    }
   }
   @include breakpoint(xl) {
     background-position: 19.8%;
   }
   .row {
-    padding:24px 0;
+    padding:8px 0;
   }
 
 }
@@ -289,6 +292,12 @@ ul.filterlist {
   svg {
     margin-right: 9px;
     margin-top: -10px;
+    height:1px;
+    opacity: 0;
+    @include breakpoint(md) {
+      height:90px;
+      opacity: 1;
+    }
   }
 }
 footer {
@@ -352,6 +361,17 @@ footer {
   margin:0 auto;
   margin-top:40px;
   margin-bottom:80px;
+}
+footer {
+  margin-top:5.6rem;
+  margin-bottom:2.4rem;
+  .foot-icons {
+    margin-bottom:8px;
+    a {
+      padding:0px 4px;
+      display:inline-block;
+    }
+  }
 }
 .btn-primary {
   @include main-btn;

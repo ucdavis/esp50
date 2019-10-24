@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>darkmode-footer</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="event1-copy" transform="translate(-1275.000000, -2044.000000)" fill="#C7C8CC" fill-rule="nonzero">
+            <g id="footer" transform="translate(1207.000000, 2044.000000)">
+                <path d="M78,20 C81.0844531,20 83.9015234,18.5966797 85.7678516,16.2971875 C86.0439453,15.9570313 85.7428906,15.4600781 85.3162109,15.5413281 C80.4645313,16.4653125 76.0091016,12.7453906 76.0091016,7.8478125 C76.0091016,5.02664062 77.5193359,2.43238281 79.9738672,1.03554687 C80.3522266,0.820234375 80.2570703,0.246601562 79.8271484,0.1671875 C79.2244447,0.0560519983 78.6128645,0 78,0 C72.4801172,0 68,4.47308594 68,10 C68,15.5198828 72.4730859,20 78,20 Z" id="darkmode-footer"></path>
+            </g>
+        </g>
+    </g>
+</svg>

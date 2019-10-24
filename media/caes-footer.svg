@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>caes-footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="event1-copy" transform="translate(-1207.000000, -2044.000000)">
+            <g id="footer" transform="translate(1207.000000, 2044.000000)">
+                <g id="caes-footer">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <path d="M13.4864285,7.43494133 C13.6121112,5.21512386 13.1924679,3.09256845 12.3487116,1.18878748 C12.1678128,0.780182529 11.9603576,0.386440678 11.7415962,-7.46069873e-14 L-3.19744231e-14,-7.46069873e-14 L-3.19744231e-14,19.8208605 L3.38238744,19.8208605 C8.93003924,18.3183833 13.1448768,13.442764 13.4864285,7.43494133" id="Fill-1" fill="#C7C8CC" mask="url(#mask-2)"></path>
+                    <path d="M13.2410097,-7.46069873e-14 C14.4591845,1.67118644 15.3518466,3.61434159 15.794891,5.76610169 C16.89606,11.1178618 14.9713806,16.3827901 11.1864407,19.8208605 L20.1243679,19.8208605 L20.1243679,-7.46069873e-14 L13.2410097,-7.46069873e-14" id="Fill-2" fill="#9899A0" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
