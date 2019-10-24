@@ -1,0 +1,86 @@
+body.darkmode {
+  background-color:$darkmode;
+  ul, ol {
+    &.no-list-style {
+      li {
+        color:$dm-primary-font;
+      }
+    }
+    li {
+      &.person-label {
+        color:$dm-secondary-font;
+      }
+    }
+  }
+  p, span, div {
+    color:$dm-primary-font;
+    footer & {
+      color:$dm-secondary-font;
+    }
+    &.topic-title  {
+      color:$dm-primary-font;
+    }
+    &.discreet {
+      color:$dm-secondary-font;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $dm-primary-font;
+
+}
+.event-details {
+  background-color:$darkmode-alt;
+  border:1px solid $borders;
+}
+.portrait {
+  border:2px solid $darkmode;
+
+}
+.timecard {
+  background-color: $darkmode-alt;
+}
+ul.filterlist {
+  li {
+    a {
+      background-color: $darkmode-alt;
+      border-bottom:3px solid $borders;
+      color:$dm-secondary-font;
+      &.filter-department {
+        border-color:$departmental;
+        &:hover {
+          background-color:transparentize($departmental, 0.15);
+        }
+      }
+      &.filter-enrollment {
+        border-color:$enrollment;
+        &:hover {
+          background-color:transparentize($enrollment, 0.15);
+        }
+      }
+      &.filter-faculty {
+        border-color:$faculty;
+        &:hover {
+          background-color:transparentize($faculty, 0.15);
+        }
+      }
+      &.filter-awards {
+        border-color:$awards;
+        &:hover {
+          background-color:transparentize($awards, 0.15);
+        }
+      }
+      &.filter-courses {
+        border-color:$courses;
+        &:hover {
+          background-color:transparentize($courses, 0.15);
+        }
+      }
+    }
+  }
+}
+}
