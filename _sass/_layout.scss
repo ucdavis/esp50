@@ -34,6 +34,16 @@ flex: 1 0 auto;
   }
 
 }
+#filtercontrol {
+  position: sticky;
+  top:8px;
+  z-index: 9999;
+  background-color:#fff;
+  box-shadow: $box-shadow;
+  padding:8px 24px;
+  width:725px;
+  margin-left: 32.15%;
+}
 header {
   background:url("/media/fish-slide.jpg");
   background-size:cover;
