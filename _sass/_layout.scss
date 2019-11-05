@@ -40,9 +40,114 @@ flex: 1 0 auto;
   z-index: 9999;
   background-color:rgba(255,255,255,0.98);
   box-shadow: $box-shadow;
-  padding:8px 24px;
-  width:723px;
-  margin-left: 32.15%;
+  padding:8px;
+  text-align: center;
+  @include breakpoint (md) {
+    margin-left:31.5%;
+    width:58%;
+    ul {
+      margin-bottom:0px;
+    }
+    a {
+      margin-bottom:8px;
+    }
+  }
+  @include breakpoint (lg) {
+    width:50%;
+    margin-left: 32.15%;
+  }
+}
+.filters {
+  h3 {
+    color:$tertiary-font;
+    font-size:1.4rem;
+    text-transform: uppercase;
+    margin-right:8px;
+    margin-top:8px;
+  }
+}
+ul.filterlist {
+  margin-left:0;
+  padding-left:0;
+  li {
+    display:inline;
+    &:hover {
+      cursor: pointer;
+    }
+    a {
+      background-color: #fff;
+      border-bottom:3px solid #fff;
+      padding:10px 16px;
+      box-shadow: $box-shadow;
+      color:$secondary-font;
+      font-size:1.6rem;
+      font-family: $sans-bold;
+      border-radius:2px;
+      transition: ease 0.25s;
+      display: inline-block;
+      user-select: none;
+      @include breakpoint (md) {
+        padding:10px 16px;
+        font-size:1.4rem;
+      }
+      @include breakpoint (xl) {
+        font-size:1.6rem;
+      }
+      // @include breakpoint (lg) {
+      //   padding:10px 14px;
+      // }
+      &.filter-department {
+        border-color:$departmental;
+        &:hover {
+          background-color:transparentize($departmental, 0.95);
+        }
+        &.active {
+          color:#fff;
+          background-color:$departmental;
+      }
+      }
+      &.filter-enrollment {
+        border-color:$enrollment;
+        &:hover {
+          background-color:transparentize($enrollment, 0.95);
+        }
+        &.active {
+          color:#fff;
+          background-color:$enrollment;
+      }
+      }
+      &.filter-faculty {
+        border-color:$faculty;
+        &:hover {
+          background-color:transparentize($faculty, 0.95);
+        }
+        &.active {
+          color:#fff;
+          background-color:$faculty;
+      }
+      }
+      &.filter-awards {
+        border-color:$awards;
+        &:hover {
+          background-color:transparentize($awards, 0.95);
+        }
+        &.active {
+          color:#fff;
+          background-color:$awards;
+      }
+      }
+      &.filter-courses {
+        border-color:$courses;
+        &:hover {
+          background-color:transparentize($courses, 0.95);
+        }
+        &.active {
+          color:#fff;
+          background-color:$courses;
+      }
+      }
+    }
+  }
 }
 header {
   background:url("/media/fish-slide.jpg");
@@ -112,88 +217,6 @@ h1 {
   @include breakpoint(lg) {
     .intro-content {
       max-width:630px;
-    }
-  }
-}
-.filters {
-  h3 {
-    color:$tertiary-font;
-    font-size:1.4rem;
-    text-transform: uppercase;
-    margin-right:8px;
-    margin-top:8px;
-  }
-}
-ul.filterlist {
-  margin-left:0;
-  padding-left:0;
-  li {
-    display:inline;
-    &:hover {
-      cursor: pointer;
-    }
-    a {
-      background-color: #fff;
-      border-bottom:3px solid #fff;
-      padding:10px 24px;
-      box-shadow: $box-shadow;
-      color:$secondary-font;
-      font-size:1.8rem;
-      font-family: $sans-bold;
-      border-radius:2px;
-      transition: ease 0.25s;
-      display: inline-block;
-      user-select: none;
-      &.filter-department {
-        border-color:$departmental;
-        &:hover {
-          background-color:transparentize($departmental, 0.95);
-        }
-        &.active {
-          color:#fff;
-          background-color:$departmental;
-      }
-      }
-      &.filter-enrollment {
-        border-color:$enrollment;
-        &:hover {
-          background-color:transparentize($enrollment, 0.95);
-        }
-        &.active {
-          color:#fff;
-          background-color:$enrollment;
-      }
-      }
-      &.filter-faculty {
-        border-color:$faculty;
-        &:hover {
-          background-color:transparentize($faculty, 0.95);
-        }
-        &.active {
-          color:#fff;
-          background-color:$faculty;
-      }
-      }
-      &.filter-awards {
-        border-color:$awards;
-        &:hover {
-          background-color:transparentize($awards, 0.95);
-        }
-        &.active {
-          color:#fff;
-          background-color:$awards;
-      }
-      }
-      &.filter-courses {
-        border-color:$courses;
-        &:hover {
-          background-color:transparentize($courses, 0.95);
-        }
-        &.active {
-          color:#fff;
-          background-color:$courses;
-      }
-      }
     }
   }
 }
