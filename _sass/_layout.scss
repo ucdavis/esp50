@@ -153,7 +153,10 @@ header {
   background-size:cover;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  padding:2.4rem 0;
+  padding:3% 0;
+  @include breakpoint (sm) {
+    padding:2.4rem 0;
+  }
   .left-head {
     background-color:transparentize($primary-color,0.24);
     height:80rem;
