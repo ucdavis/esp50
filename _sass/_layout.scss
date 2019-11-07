@@ -19,18 +19,15 @@ flex: 1 0 auto;
 .container {
   padding: 0;
   width: 98%;
-  max-width:1440px;
   @include breakpoint (sm) {
     width: 96%;
-    max-width:1440px;
   }
   @include breakpoint (md) {
     width: 92%;
-    max-width:1440px;
   }
   @include breakpoint(lg) {
     width: 90%;
-    max-width:1440px;
+    max-width:1080px;
   }
 
 }
@@ -39,21 +36,20 @@ flex: 1 0 auto;
   top:8px;
   z-index: 9999;
   background-color:rgba(255,255,255,0.98);
-  padding:8px;
   text-align: center;
+  width:100%;
+  padding:4px 8px 0px 8px;
+  margin:0 auto;
+  box-shadow: $box-shadow;
   @include breakpoint (md) {
-    margin-left:31.5%;
-    width:58%;
-    ul {
-      margin-bottom:0px;
-    }
-    a {
-      margin-bottom:8px;
-    }
+    margin-left:31.1%;
+    width:66.7%;
   }
   @include breakpoint (lg) {
-    width:51%;
-    margin-left: 32%;
+    margin-left:31.5%;
+  }
+  @include breakpoint (xl) {
+    margin-left:31.9%;
   }
 }
 .filters {
@@ -65,11 +61,9 @@ flex: 1 0 auto;
     margin-top:8px;
   }
 }
-ul.filterlist {
-  margin-left:0;
-  padding-left:0;
-  li {
-    display:inline;
+.filterlist {
+  max-width:100%;
+  div {
     &:hover {
       cursor: pointer;
     }
@@ -79,7 +73,7 @@ ul.filterlist {
       padding:10px 16px;
       box-shadow: $box-shadow;
       color:$secondary-font;
-      font-size:1.6rem;
+      font-size:1.4rem;
       font-family: $sans-bold;
       border-radius:2px;
       transition: ease 0.25s;
@@ -87,7 +81,6 @@ ul.filterlist {
       user-select: none;
       @include breakpoint (md) {
         padding:10px 16px;
-        font-size:1.4rem;
       }
       @include breakpoint (xl) {
         font-size:1.6rem;
@@ -235,7 +228,7 @@ h1 {
   border-radius: 4px;
   overflow: hidden;
   border:none;
-  padding: 1.6rem 1.6rem 1rem 1.6rem !important;
+  padding: 1.6rem !important;
   h3 {
     margin:0;
     justify-content: space-between;
