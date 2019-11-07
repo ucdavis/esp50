@@ -1,4 +1,4 @@
-.treeleaf:nth-child(5n) {
+.treeleaf:nth-child(6n) {
     #tree.courses & {
         fill: $sunny-grass;
     }
@@ -14,8 +14,11 @@
     #tree.awards & {
         fill: $california-poppy;
     }
+    #tree.affiliated & {
+        fill: $affiliated;
+    }
 }
-.treeleaf:nth-child(5n + 1) {
+.treeleaf:nth-child(6n + 1) {
     #tree.departmental & {
         fill: $golden-lupine;
     }
@@ -28,11 +31,14 @@
     #tree.awards & {
         fill: $california-poppy;
     }
+    #tree.affiliated & {
+        fill: $affiliated;
+    }
     #tree.faculty &, #tree & {
         fill: $unitrans-red;
     }
 }
-.treeleaf:nth-child(5n + 2) {
+.treeleaf:nth-child(6n + 2) {
     #tree.enrollment &, #tree & {
         fill: $sky-blue;
     }
@@ -42,6 +48,9 @@
     #tree.courses & {
         fill: $sunny-grass;
     }
+    #tree.affiliated & {
+        fill: $affiliated;
+    }
     #tree.faculty & {
         fill: $unitrans-red;
     }
@@ -49,12 +58,15 @@
         fill: $golden-lupine;
     }
 }
-.treeleaf:nth-child(5n + 3) {
+.treeleaf:nth-child(6n + 3) {
     #tree.awards &, #tree & {
         fill: $california-poppy;
     }
     #tree.faculty & {
         fill: $unitrans-red;
+    }
+    #tree.affiliated & {
+        fill: $affiliated;
     }
     #tree.departmental & {
         fill: $golden-lupine;
@@ -65,11 +77,14 @@
     #tree.enrollment &{
         fill: $sky-blue;
     }
-   
+
 }
-.treeleaf:nth-child(5n + 4) { 
+.treeleaf:nth-child(6n + 4) {
     #tree.faculty & {
         fill: $unitrans-red;
+    }
+    #tree.affiliated & {
+        fill: $affiliated;
     }
     #tree.enrollment & {
         fill: $sky-blue;
@@ -82,5 +97,25 @@
     }
     #tree.courses &, #tree & {
         fill: $sunny-grass;
+    }
+}
+.treeleaf:nth-child(6n + 5) {
+  #tree.affiliated &, #tree & {
+      fill: $affiliated;
+  }
+    #tree.faculty & {
+        fill: $unitrans-red;
+    }
+    #tree.enrollment & {
+        fill: $sky-blue;
+    }
+    #tree.departmental & {
+        fill: $golden-lupine;
+    }
+    #tree.courses & {
+        fill: $sunny-grass;
+    }
+    #tree.awards & {
+        fill: $california-poppy;
     }
 }
