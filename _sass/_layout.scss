@@ -18,10 +18,7 @@ flex: 1 0 auto;
 }
 .container {
   padding: 0;
-  width: 98%;
-  @include breakpoint (sm) {
-    width: 96%;
-  }
+  width: 94%;
   @include breakpoint (md) {
     width: 92%;
   }
