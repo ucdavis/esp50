@@ -329,13 +329,17 @@ h1 {
 .last-row {
   margin-bottom:3.2rem;
   svg {
-    margin-right: 9px;
-    margin-top: -10px;
+    margin-right: 8%;
+    margin-top: -2px;
     height:1px;
     opacity: 0;
     @include breakpoint(md) {
       height:90px;
       opacity: 1;
+      margin-right: 9%;
+    }
+    @include breakpoint(xl) {
+      margin-right: 6%;
     }
   }
 }
