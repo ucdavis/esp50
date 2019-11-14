@@ -41,11 +41,15 @@ h6 {
   border:2px solid $darkmode;
 
 }
+.entry-affiliated {
+  .timecard a {
+    color:$dm-affiliated;
+  }
+}
 .timecard {
   background-color: $darkmode-alt;
 }
-ul.filterlist {
-  li {
+.filterlist {
     a {
       background-color: $darkmode-alt;
       border-bottom:3px solid $borders;
@@ -80,7 +84,12 @@ ul.filterlist {
           background-color:transparentize($courses, 0.15);
         }
       }
-    }
+      &.filter-affiliated {
+        border-color:$affiliated;
+        &:hover {
+          background-color:transparentize($affiliated, 0.15);
+        }
+      }
   }
 }
 #filtercontrol {
