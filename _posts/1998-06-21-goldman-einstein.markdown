@@ -1,7 +1,7 @@
 ---
 title:  "In 1998 Charles Goldman, Distinguished Professor Emeritus, received the Einstein Award."
 date:   1998-06-21
-portrait: geoffrey-wandesforde-smith
+portrait: Charles-Goldman
 categories:
   - awards
 ---

@@ -1,5 +1,8 @@
 body.darkmode {
   background-color:$darkmode;
+  a {
+    color:$a-dm;
+  }
   ul, ol {
     &.no-list-style {
       li {
