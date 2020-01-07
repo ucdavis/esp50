@@ -1,7 +1,7 @@
 ---
 title:  "Joan Ogden, Professor Emeritus, served as a mentor for a Humphrey Fellows."
 date:   2004-06-21
-portrait: Joan-Ogden
+portrait: Joan
 categories:
   - faculty
 ---

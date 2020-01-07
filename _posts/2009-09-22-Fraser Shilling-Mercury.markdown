@@ -1,7 +1,7 @@
 ---
 title:  "UCD ecologist Fraser Shilling conducted a study which found widespread impact of people regularly eating mercury tainted fish"
 date:   2009-09-22
-portrait: Fraser-Shilling
+portrait: Fraser
 link: https://www.cbsnews.com/news/californias-mercury-problem-18-09-2009/
 categories:
   - faculty
