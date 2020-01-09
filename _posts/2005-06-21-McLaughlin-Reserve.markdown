@@ -5,4 +5,4 @@ link: https://naturalreserves.ucdavis.edu/mclaughlin-reserve
 categories:
   - affiliated
 ---
- Susan Harrison director of the UCD Natural Reserve System was thrilled with the news. UCD reserves included BOdega, Eagle Lake FIeld Station, Jepson Prairie Reserve, Quail Ridge and Stebbins Cold Canyon.	
+ Susan Harrison director of the UCD Natural Reserve System was thrilled with the news. UCD reserves included Bodega, Eagle Lake Field Station, Jepson Prairie Reserve, Quail Ridge and Stebbins Cold Canyon.	

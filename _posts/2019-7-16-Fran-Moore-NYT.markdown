@@ -6,4 +6,4 @@ link: https://www.nytimes.com/2019/02/26/climate/what-is-extreme-weather.html
 categories:
   - faculty
 ---
-The an articles discusses the the new normal of extreme weather events. Fran Moore's study focused on how people contextualize extreme temperatures based on past weather experiences.
+The article discusses the new normal of extreme weather events. Fran Moore's study focused on how people contextualize extreme temperatures based on past weather experiences.
