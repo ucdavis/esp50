@@ -2,7 +2,7 @@
 title:  "Formation of the Division of Environmental Studies"
 date:   1970-06-15
 categories:
-  - departmental
+  - faculty
 ---
 
 Division carried two undergraduate majors, Environmental Planning and Management (ENP), and Environmental Policy Analysis and Planning (EPAP).

@@ -2,5 +2,5 @@
 title:  "On July 1, 1986, the Division became a department within the College of Agricultural and Environmental Sciences."
 date:   1986-07-1
 categories:
-  - departmental
+  - faculty
 ---

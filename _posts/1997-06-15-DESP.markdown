@@ -2,5 +2,5 @@
 title:  "The Division officially changed its name to The Department of Environmental Science and Policy (DESP)."
 date:   1997-06-15
 categories:
-  - departmental
+  - faculty
 ---
