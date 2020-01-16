@@ -1,5 +1,29 @@
 body.darkmode {
   background-color:$darkmode;
+  .page-wrap {
+    background-color:$darkmode;
+  }
+  .event-card {
+    background-color: $darkmode-alt;
+    h3 {
+      color:$dm-primary-font;
+    }
+    p {
+      color:$dm-primary-font;
+    }
+    a {
+      color:$dm-secondary-font;
+      font-family: $sans-reg;
+      font-weight:400;
+      &.event-register-btn {
+        color:$gold;
+        font-family: $sans-bold;
+      }
+    }
+  }
+  footer {
+    background-color:$darkmode;
+  }
   a {
     color:$a-dm;
   }
@@ -35,10 +59,6 @@ h5,
 h6 {
     color: $dm-primary-font;
 
-}
-.event-details {
-  background-color:$darkmode-alt;
-  border:1px solid $borders;
 }
 .portrait {
   border:2px solid $darkmode;

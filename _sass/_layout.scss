@@ -14,11 +14,13 @@ body {
   height:100%;
 }
 .page-wrap {
-flex: 1 0 auto;
+  flex: 1 0 auto;
+  background-color:$bg-color;
 }
 .container {
   padding: 0;
   width: 94%;
+
   @include breakpoint (sm) {
     max-width: 100%;
   }
@@ -223,15 +225,6 @@ h1 {
     fill:$tertiary-font;
   }
 }
-// header.slider {
-//   .slide_overlay {
-//     position: absolute;
-//     background-color:transparentize($primary-color,0.24);
-//     z-index:99;
-//     height:80rem;
-//     padding:2.4rem;
-//   }
-// }
 .head_bleed {
   background: #1e3a5b;
     background: -moz-linear-gradient(left,#1e3a5b 0%,#1e3a5b 44%,#dbbc5b 57%,#dbbc5b 100%);
@@ -323,17 +316,6 @@ h1 {
   }
 
 }
-// .year1972, .year1982, .year1992, .year1997, .year1998, .year2001, .year2004 {
-//   padding:0px;
-// }
-// .yearline:first-child {
-//   padding-bottom:500px;
-// }
-// .timeline-wrapper {
-//   .year1997:last-child {
-//     padding-top:12px !important;
-//   }
-// }
 .linemarker {
     align-items:flex-start;
     padding-top:1.6rem;
@@ -445,6 +427,7 @@ footer {
 footer {
   margin-top:5.6rem;
   margin-bottom:2.4rem;
+  background-color:$bg-color;
   .foot-icons {
     margin-bottom:8px;
     a {
