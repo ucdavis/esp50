@@ -82,7 +82,7 @@ flex: 1 0 auto;
       user-select: none;
       margin-top:4px;
       @include breakpoint (md) {
-        padding:10px 16px;
+        padding:10px 24px;
       }
       @include breakpoint (xl) {
         font-size:1.6rem;
@@ -177,6 +177,19 @@ header {
     }
   }
 }
+.eventbox {
+  margin-top:5%;
+  margin-bottom:5%;
+}
+.leaf-pattern {
+  
+  @include breakpoint (md) {
+    background:url("/media/leafpattern.svg");
+    background-repeat: no-repeat;
+    background-position:center;
+    min-height:505px;
+  }
+}
 .event-card {
   background-color: #ffffff;
   box-shadow: $box-shadow;
@@ -191,27 +204,19 @@ header {
     align-content: center;
   }
   p {
-    margin-top:0px;
-    margin-bottom:16px;
+    margin:8px 0;
   }
   a {
     text-decoration: underline;
     color:$primary-font;
     font-family: $sans-reg;
     font-weight:400;
-    &.btn-primary {
-      text-decoration: none;
-      font-weight:700;
+    &.event-register-btn {
+      color:$gold;
+      font-family: $sans-bold;
     }
   }
 }
-header.yurt {
-  background:url("/media/yurt-slide.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-}
-
 h1 {
   .fas {
     -webkit-text-fill-color:$tertiary-font;
