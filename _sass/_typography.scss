@@ -79,8 +79,10 @@ p, span, div {
   color:$primary-font;
   // margin:1.2rem 0rem;
   &.lead {
-    font-size:1.8rem;
-    font-weight:400;
+    font-size:2rem;
+    font-weight:100;
+    line-height: 35px;
+    color:$secondary-font;
   }
   footer & {
     color:$secondary-font;
