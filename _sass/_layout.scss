@@ -12,10 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   height:100%;
+  background-color:$bg-color;
 }
 .page-wrap {
   flex: 1 0 auto;
-  background-color:$bg-color;
 }
 .container {
   padding: 0;
@@ -424,10 +424,14 @@ footer {
   margin-top:40px;
   margin-bottom:80px;
 }
+.btn-primary {
+  @include main-btn;
+}
+.btn-outline {
+  @include inverse-btn;
+}
 footer {
-  margin-top:5.6rem;
-  margin-bottom:2.4rem;
-  background-color:$bg-color;
+  margin-top:5%;
   .foot-icons {
     margin-bottom:8px;
     a {
@@ -442,10 +446,4 @@ footer {
       }
     }
   }
-}
-.btn-primary {
-  @include main-btn;
-}
-.btn-outline {
-  @include inverse-btn;
 }

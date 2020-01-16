@@ -1,8 +1,5 @@
 body.darkmode {
   background-color:$darkmode;
-  .page-wrap {
-    background-color:$darkmode;
-  }
   .event-card {
     background-color: $darkmode-alt;
     h3 {
@@ -20,9 +17,6 @@ body.darkmode {
         font-family: $sans-bold;
       }
     }
-  }
-  footer {
-    background-color:$darkmode;
   }
   a {
     color:$a-dm;
