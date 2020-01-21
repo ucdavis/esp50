@@ -186,7 +186,7 @@ header {
 .leaf-pattern {
 
   @include breakpoint (md) {
-    background:url("/media/leafpattern.svg");
+    background:url("/media/leafpatternfilled.svg");
     background-repeat: no-repeat;
     background-position:center;
     min-height:505px;
