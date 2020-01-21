@@ -23,13 +23,9 @@ $sans-bold:     "proxima-nova-b",sans-serif;
 $sans-reg:      "proxima-nova-r",sans-serif;
 
 $primary-color:     #002855;
-$secondary-color:   #004987;
-$tertiary-color:    #DAAA00;
-
-
 
 $gold:              #DAAA00;
-$blue:              #004987;
+$blue:              #002855;
 
 $a-link:            transparentize($primary-color, .2);
 $a-dm:              #DAAA00;
@@ -128,7 +124,7 @@ $shingle-brown: #4f2c1d;
   line-height: 40px;
   padding: 0 20px;
   box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 1px 3px rgba(0,0,0,.08);
-  background: $tertiary-color;
+  background: $gold;
   border-radius: 2px;
   font-size: 1.6rem;
   letter-spacing: 0.025em;
@@ -139,13 +135,13 @@ $shingle-brown: #4f2c1d;
   font-family: $sans-bold;
   &:active,
   &:focus {
-    background-color: darken($tertiary-color, 5);
+    background-color: darken($gold, 5);
   }
   &:hover {
     color: #fff !important;
     transform: translateY(-1px);
     box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 3px 6px rgba(0,0,0,.08);
-    background-color: lighten($tertiary-color, 5);
+    background-color: lighten($gold, 5);
   }
 }
 

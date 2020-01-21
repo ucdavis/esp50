@@ -56,11 +56,11 @@
     #tree.awards & {
         fill: $california-poppy;
     }
-    #tree.enrollment &{
-        fill: $sky-blue;
-    }
     #tree.courses & {
         fill: $sunny-grass;
+    }
+    #tree.enrollment &{
+        fill: $sky-blue;
     }
     #tree.faculty &, #tree & {
         fill: $unitrans-red;
@@ -73,11 +73,11 @@
     #tree.courses & {
         fill: $sunny-grass;
     }
-    #tree.faculty & {
-        fill: $unitrans-red;
-    }
     #tree.enrollment & {
         fill: $sky-blue;
+    }
+    #tree.faculty & {
+        fill: $unitrans-red;
     }
     #tree.affiliated &, #tree & {
         fill: $affiliated;
