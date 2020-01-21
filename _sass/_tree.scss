@@ -1,7 +1,21 @@
 .treeleaf:nth-child(5n) {
-    #tree.courses &, #tree & {
+    #tree.courses & {
         fill: $sunny-grass;
     }
+    #tree.enrollment & {
+        fill: $sky-blue;
+    }
+    #tree.faculty & {
+        fill: $unitrans-red;
+    }
+    #tree.affiliated & {
+        fill: $affiliated;
+    }
+    #tree.awards & #tree & {
+        fill: $california-poppy;
+    }
+}
+.treeleaf:nth-child(5n + 1) {
     #tree.enrollment & {
         fill: $sky-blue;
     }
@@ -14,21 +28,7 @@
     #tree.awards & {
         fill: $california-poppy;
     }
-}
-.treeleaf:nth-child(5n + 1) {
-    #tree.enrollment & {
-        fill: $sky-blue;
-    }
-    #tree.faculty &, #tree & {
-        fill: $unitrans-red;
-    }
-    #tree.affiliated & {
-        fill: $affiliated;
-    }
-    #tree.awards & {
-        fill: $california-poppy;
-    }
-    #tree.courses & {
+    #tree.courses &, #tree & {
         fill: $sunny-grass;
     }
 }
@@ -53,16 +53,16 @@
     #tree.affiliated & {
         fill: $affiliated;
     }
-    #tree.awards &, #tree & {
+    #tree.awards & {
         fill: $california-poppy;
     }
     #tree.enrollment &{
         fill: $sky-blue;
     }
-    #tree.courses &  {
+    #tree.courses & {
         fill: $sunny-grass;
     }
-    #tree.faculty & {
+    #tree.faculty &, #tree & {
         fill: $unitrans-red;
     }
 }
@@ -70,7 +70,7 @@
     #tree.awards & {
         fill: $california-poppy;
     }
-    #tree.courses &, #tree & {
+    #tree.courses & {
         fill: $sunny-grass;
     }
     #tree.faculty & {
@@ -79,7 +79,7 @@
     #tree.enrollment & {
         fill: $sky-blue;
     }
-    #tree.affiliated & {
+    #tree.affiliated &, #tree & {
         fill: $affiliated;
     }
 }
