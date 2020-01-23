@@ -1,6 +1,9 @@
 ---
 title:  "UC Davis Tahoe Research Center hosted President Bill Clinton and Vice President Al Gore."
 date:   1997-06-15
+image: tahoebillclinton
+image-description: President Bill Clinton visits the Tahoe Research Center
+link: https://tahoe.ucdavis.edu/about
 categories:
   - affiliated
 ---

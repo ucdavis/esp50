@@ -1,7 +1,6 @@
 ---
-title:  "Susan P. Harrison, ecologist, appointed as first woman faculty member of DES."
+title:  "Susan P. Harrison and Eliska Rejmankova, both ecologists, became the first female faculty members of DES."
 date:   1990-06-21
-portrait: Susan-Harrison
 categories:
   - faculty
 ---
