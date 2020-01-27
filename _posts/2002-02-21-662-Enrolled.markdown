@@ -1,6 +1,8 @@
 ---
-title:  "662 students enrolled in DESP courses, 74 students enrolled in EBM and 79 in EPAP."
+title:  "662 students enroll in Department of Environmental Science and Policy courses"
 date:   2002-02-21
 categories:
   - enrollment
 ---
+
+With 74 students majoring in Environmental Biology and Management and 79 students majoring in Environmental Policy Analysis and Planning.

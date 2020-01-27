@@ -1,8 +1,8 @@
 ---
-title:  "McLaughlin Reserve created in joint with UCD and Barrick Gold Crop."
+title:  "UC Davis and Barrick Gold Corporation establish McLaughlin Reserve"
 date:   2005-06-21
 link: https://naturalreserves.ucdavis.edu/mclaughlin-reserve
 categories:
   - affiliated
 ---
- Susan Harrison director of the UCD Natural Reserve System was thrilled with the news. UCD reserves included Bodega, Eagle Lake Field Station, Jepson Prairie Reserve, Quail Ridge and Stebbins Cold Canyon.	
+ The University of California Natural Reserve System is the largest and most diverse network of university field stations in the world. Five reserves are administered by the Davis campus including: Bodega Marine, Jepson Prairie, Donald and Sylvia McLaughlin, Quail Ridge, and Stebbins Cold Canyon.

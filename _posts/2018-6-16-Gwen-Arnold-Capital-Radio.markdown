@@ -1,5 +1,5 @@
 ---
-title:  "Capital Public Radio features an interview with Gwen Arnold as she discusses her work and the debate over fracking in San Luis Obispo."
+title:  "Capital Public Radio features an interview with Gwen Arnold as she discusses her work and the debate over fracking in San Luis Obispo"
 date:   2018-06-12
 image: oilfields
 image-description: Oil rigs in a field

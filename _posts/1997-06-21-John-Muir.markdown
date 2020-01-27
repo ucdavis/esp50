@@ -1,5 +1,5 @@
 ---
-title:  "Founding of the John Muir Institute of the Environment"
+title:  "John Muir Institute of the Environment was established"
 date:   1997-06-21
 link: https://johnmuir.ucdavis.edu/
 categories:

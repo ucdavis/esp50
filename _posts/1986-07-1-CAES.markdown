@@ -1,5 +1,5 @@
 ---
-title:  "On July 1, 1986, the Division became a department within the College of Agricultural and Environmental Sciences."
+title:  "July 1, the Division of Environmental Studies becomes a department within the College of Agricultural and Environmental Sciences"
 date:   1986-07-1
 categories:
   - faculty

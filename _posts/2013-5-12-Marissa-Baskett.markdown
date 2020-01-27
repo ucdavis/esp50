@@ -1,5 +1,5 @@
 ---
-title:  "Marissa Baskett elected Ecological Society of America Early Career Fellow, 2013-2018"
+title:  "Marissa Baskett elected Ecological Society of America Early Career Fellow"
 date:   2013-05-12
 portrait: Marissa-Baskett
 link: https://www.esa.org/blog/2013/06/11/esa-announces-2013-fellows/

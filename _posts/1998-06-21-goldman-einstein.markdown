@@ -1,9 +1,9 @@
 ---
-title:  "In 1998 Charles Goldman, Distinguished Professor Emeritus, received the Einstein Award."
+title:  "Charles Goldman, Distinguished Professor Emeritus, receives Albert Einstein World Award of Science"
 date:   1998-06-21
 portrait: Charles-Goldman
 categories:
   - awards
 ---
 
-The award is bestowed annually by an international council of eminent scientists to a scientist who has accomplished scientific and technological achievements that have advanced scientific understanding and benefited humanity.
+The Albert Einstein World Award of Science is bestowed annually by an international council to recognize a scientist who has accomplished scientific and technological achievements while advancing scientific understanding and benefitting humanity.

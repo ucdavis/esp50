@@ -1,5 +1,5 @@
 ---
-title:  "The courses Physical and Chemical Oceanography, Geological Oceanography, and Biological Oceanography were first offered. "
+title:  "Physical and Chemical Oceanography, Geological Oceanography, and Biological Oceanography courses are offered"
 date:   1973-09-15
 categories:
   - courses

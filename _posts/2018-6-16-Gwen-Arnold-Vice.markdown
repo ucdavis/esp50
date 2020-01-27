@@ -1,5 +1,5 @@
 ---
-title:  "Gwen Arnold, in an interview with Vice, discusses the EPA's website change to a more pro-fracking outlook."
+title:  "Gwen Arnold, in an interview with Vice, discusses the EPA's website change to a more pro-fracking outlook"
 date:   2018-06-12
 link: https://www.vice.com/en_us/article/qvqkd3/the-epa-gave-its-website-a-pro-fracking-makeover
 image: gwen-arnold-fracking

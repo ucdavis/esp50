@@ -1,5 +1,5 @@
 ---
-title:  "Susan Harrison elected as a Fellow of the Ecology Society of America"
+title:  "Susan Harrison elected as a Fellow and Marissa Baskett elected as an Early Career Fellow of the Ecological Society of America"
 date:   2013-04-12
 portrait: Susan-Harrison
 link: https://www.esa.org/blog/2013/06/11/esa-announces-2013-fellows/

@@ -1,7 +1,6 @@
 ---
-title:  "Creation of the Information Center for the Environment (ICE)."
+title:  "Information Center for the Environment is co-founded by Jim Quinn and Mike McCoy"
 date:   1992-06-21
-link: http://ice.ucdavis.edu/
 categories:
   - affiliated
 ---

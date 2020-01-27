@@ -1,5 +1,5 @@
 ---
-title:  "ESP faculty member Alan Hastings receives a $3.8 million NSF grant to study ecosystem processes of invasive Atlantic cordgrass that traps sediment."
+title:  "Information Center for the Environment receives funding to become the California/Southwest Center for the National Biological Information Infrastructure"
 date:   2001-02-21
 portrait: Alan-Hastings
 categories:

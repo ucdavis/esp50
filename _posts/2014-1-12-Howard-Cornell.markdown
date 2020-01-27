@@ -1,5 +1,5 @@
 ---
-title:  "Howard Cornell, Professor Emeritus, recognized as Thompson Reuters Higher Cited Researcher (2014-2016)"
+title:  "Professor Emeritus Howard Cornell, recognized as Thompson Reuters Highly Cited Researcher"
 date:   2014-01-12
 portrait: Howard-Cornell
 categories:

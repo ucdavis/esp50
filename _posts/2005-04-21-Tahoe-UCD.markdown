@@ -1,5 +1,5 @@
 ---
-title:  "UC Davis and Sierra Nevada College build a new Lake Tahoe Research and Education Facility (UCD Tahoe Environmental Research Center)."
+title:  "UC Davis and Sierra Nevada College at Lake Tahoe build new Lake Tahoe Research and Education Facility"
 date:   2005-04-21
 image: UCD-tahoe
 image-description: Research vessel on Lake Tahoe, California
@@ -7,4 +7,5 @@ link: https://tahoe.ucdavis.edu/
 categories:
   - affiliated
 ---
-UC Davis Tahoe Environmental Research Center is dedicated to interdisciplinary research and education to advance the knowledge of aquatic and terrestrial ecosystems and their interactions within natural and developed Earth systems, and to communicate science-informed solutions worldwide.
+
+The UC Davis Tahoe Environmental Research Center is dedicated to interdisciplinary research and education to advance the knowledge of aquatic and terrestrial ecosystems and their interactions within natural and developed Earth systems, and to communicate science-informed solutions worldwide.

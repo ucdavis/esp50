@@ -1,8 +1,7 @@
 ---
-title:  "Andy Sih, chair of ESP in 2004, elected World Innovation Foundation Fellow."
+title:  "Andy Sih elected World Innovation Foundation Fellow"
 date:   2005-01-21
 portrait: Andy-Sih
 categories:
   - faculty
 ---
- World Innovation Foundation is a consulting group that advises nations and their governments.

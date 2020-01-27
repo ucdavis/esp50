@@ -1,5 +1,5 @@
 ---
-title:  "Marissa Baskett elected University of California, Davis Chancellor's Fellow, 2017-2022"
+title:  "Marissa Baskett elected UC Davis Chancellor's Fellow"
 date:   2017-01-12
 portrait: Marissa-Baskett
 link: https://www.ucdavis.edu/news/chancellors-fellows-stellar-every-way
