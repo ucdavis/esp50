@@ -1,0 +1,7 @@
+---
+title:  "James Sanchirico receives Rosenstiel Award in Oceanographic Science for outstanding achievement and distinction in marine policy and economics, 38th recipient."
+date:   2012-06-21
+portrait: James-Sanchirico
+categories:
+  - awards
+---
