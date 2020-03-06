@@ -1,0 +1,8 @@
+---
+title:  "John Largier leads development of the Bodega Ocean Observing Node (BOON) as focal node in regional/national ocean observing systems, serving regional organizations and establishing Bodega Marine Laboratory/UC Davis as the oceanography center in northern California."
+date:   2004-01-21
+link: http://boon.ucdavis.edu/
+portrait: John-Largier
+categories:
+  - affiliated
+---
