@@ -11,3 +11,14 @@ Gemfile.lock
 /.vs/VSWorkspaceState.json
 /.vs/cru-computing/v16/.suo
 /.vs/ProjectSettings.json
+media/timeline/.DS_Store
+media/markers/.DS_Store
+media/fonts/.DS_Store
+media/faculty/.DS_Store
+media/.DS_Store
+js/.DS_Store
+_sass/.DS_Store
+_posts/.DS_Store
+_layouts/.DS_Store
+_includes/.DS_Store
+.DS_Store
